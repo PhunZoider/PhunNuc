@@ -1,0 +1,205 @@
+VERSION = 1,
+
+option NUC.FalloutEnable 
+{
+    type = boolean,
+    default = true,
+    page = NUC,
+    translation = NUC_FalloutEnable,
+}
+
+option NUC.FalloutRadEnable 
+{
+    type = boolean,
+    default = true,
+    page = NUC,
+    translation = NUC_FalloutRadEnable,
+}
+
+option NUC.ItemRadEnable 
+{
+    type = boolean,
+    default = true,
+    page = NUC,
+    translation = NUC_ItemRadEnable,
+}
+
+option NUC.ZoneRadEnable 
+{
+    type = boolean,
+    default = true,
+    page = NUC,
+    translation = NUC_ZoneRadEnable,
+}
+
+option NUC.OverrideGlobalPowerEnable 
+{
+    type = boolean,
+    default = true,
+    page = NUC,
+    translation = NUC_OverrideGlobalPowerEnable,
+}
+
+option NUC.DestructionAllowed 
+{
+    type = boolean,
+    default = false,
+    page = NUC,
+    translation = NUC_DestructionAllowed,
+}
+
+option NUC.EnableCustomSpawnPoints 
+{
+    type = boolean,
+    default = false,  
+    page = NUC,
+    translation = NUC_EnableCustomSpawnPoints,
+}
+
+option NUC.MinDaysFixed
+{
+    type = integer,
+    min = 15,
+    default = 30,
+    max = 60,
+    page = NUC,
+    translation = NUC_MinDaysFixed,
+}
+
+option NUC.TransTime
+{
+    type = integer,
+    min = 30,
+    default = 150,
+    max = 365,
+    page = NUC,
+    translation = NUC_TransTime,
+}
+
+option NUC.TransfuseTime
+{
+    type = integer,
+    min = 30,
+    default = 90,
+    max = 365,
+    page = NUC,
+    translation = NUC_TransfuseTime,
+}
+
+option NUC.ComFusesTime
+{
+    type = integer,
+    min = 30,
+    default = 60,
+    max = 365,
+    page = NUC,
+    translation = NUC_ComFusesTime,
+}
+
+option NUC.ExtPmpTime
+{
+    type = integer,
+    min = 30,
+    default = 90,
+    max = 365,
+    page = NUC,
+    translation = NUC_ExtPmpTime,
+}
+
+option NUC.PumpTime
+{
+    type = integer,
+    min = 30,
+    default = 120,
+    max = 365,
+    page = NUC,
+    translation = NUC_PumpTime,
+}
+
+option NUC.NuclearRodDays
+{
+    type = integer,
+    min = 1,
+    default = 30,
+    max = 365,
+    page = NUC,
+    translation = NUC_NuclearRodDays,
+}
+
+option NUC.FalloutDay
+{
+    type = integer,
+    min = 3,
+    default = 7,
+    max = 14,
+    page = NUC,
+    translation = NUC_FalloutDay,
+}
+
+option NUC.EnableReducedCoreMBRequirement 
+{
+    type = boolean,
+    default = false,  
+    page = NUC,
+    translation = NUC_EnableReducedCoreMBRequirement,
+}
+
+option NUC.Hackdifficulty 
+{
+    type = integer,
+    min = 0,
+    default = 6,
+    max = 10,
+    page = NUC,
+    translation = NUC_HackDifficulty,
+}
+
+option NUC.CreateRedDiskPerkReq 
+{
+    type = integer,
+    min = 0,
+    default = 7,
+    max = 10,
+    page = NUC,
+    translation = NUC_CreateRedDiskPerkReq,
+}
+
+option NUC.CreateRedSecCardPerkReq 
+{
+    type = integer,
+    min = 0,
+    default = 3,
+    max = 10,
+    page = NUC,
+    translation = NUC_CreateRedSecCardPerkReq,
+}
+
+option NUC.CreateBlueSecCardPerkReq 
+{
+    type = integer,
+    min = 0,
+    default = 0,
+    max = 10,
+    page = NUC,
+    translation = NUC_CreateBlueSecCardPerkReq,
+}
+
+option NUC.RegRDDBasicPerkReq 
+{
+    type = integer,
+    min = 0,
+    default = 3,
+    max = 10,
+    page = NUC,
+    translation = NUC_RegRDDBasicPerkReq,
+}
+
+option NUC.BlueDiskPerkBonus 
+{
+    type = integer,
+    min = 0,
+    default = 3,
+    max = 10,
+    page = NUC,
+    translation = NUC_BlueDiskPerkBonus,
+}

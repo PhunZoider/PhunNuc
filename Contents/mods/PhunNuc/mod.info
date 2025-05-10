@@ -1,0 +1,10 @@
+name=Nuclear Future: Phun
+id=PhunNuc
+authors=Chaos
+description=Players: 1+ (difficulty adjustable); SP & MP; Map size: 1x Cell; Content: Repair an experimental nuclear reactor to restore power to the city. Explore the world to find critical components and personal protective equipment, enhance your skills, and get familiar with the mechanics to achieve your goals. Regular repairs to the power plant systems are essential—neglecting them could lead to serious consequences. Note:SpeedFramework and MoodleFramework are required for RadiatedZones.
+require=tkTiles_01,Diederiks Tile Palooza,MoodleFramework
+poster=poster.png
+pack=NUC_texpack
+tiledef=NUC_tiles_01 1435
+modVersion=0.601
+tags=Items, Gameplay, power, electricity, map, UI
