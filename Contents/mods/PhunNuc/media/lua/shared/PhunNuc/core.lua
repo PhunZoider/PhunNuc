@@ -1,7 +1,11 @@
 PhunNuc = {
     name = "PhunNuc",
     consts = {
-        Guide = "NUC_Mag3"
+        Guide = "NUC_Mag3",
+        repairPoints = "PhunNuc_RepairPoints",
+    },
+    data = {
+        
     },
     commands = {},
     events = {},

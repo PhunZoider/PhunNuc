@@ -21,4 +21,22 @@ IGUI_EN = {
     IGUI_PhunNuc_Read_Guide = "Read Guide"
     IGUI_PhunNuc_guide_x_of_y = "Page %1 of %2"
 
+
+    IGUI_PhunNuc_RDD_title = "Remote Diagnostics Device"
+    IGUI_PhunNuc_RDD_connecting = "Establishing Connection..."
+    IGUI_PhunNuc_RDD_no_signal= "<H1> No signal"
+    IGUI_PhunNuc_RDD_global_power_online= "<H1> <GREEN> Power is online"
+    IGUI_PhunNuc_RDD_global_power_offline= "<H1> <RED> Power is offline"
+    IGUI_PhunNuc_RDD_something_wrong= "Something is wrong. The device switched off"
+    IGUI_PhunNuc_RDD_unregistered= "Device is unregistered with a comms station"
+    IGUI_PhunNuc_RDD_battery_depleated = "Battery is dead"
+
+    IGUI_PhunNuc_SubSystem_Status_Ok = "Ok"
+    IGUI_PhunNuc_SubSystem_Status_service = "Ok, Service Required"
+    IGUI_PhunNuc_SubSystem_Status_critical = "Criticaal"
+    IGUI_PhunNuc_SubSystem_Status_failure = "Failure"
+    IGUI_PhunNuc_SubSystem_Status_online = "Online"
+    IGUI_PhunNuc_SubSystem_Status_offline = "Offline"
+    IGUI_PhunNuc_SubSystem_Status_limited = "Limited"
+
 }

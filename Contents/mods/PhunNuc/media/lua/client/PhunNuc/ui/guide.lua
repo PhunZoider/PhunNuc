@@ -100,15 +100,6 @@ function UI:createChildren()
     local h = self.height - rh - th
     local buttonY = w - rh - th - padding
 
-    local colA = {
-        left = padding,
-        width = (self.width / 2) - padding
-    }
-    local colB = {
-        left = (self.width / 2) + padding,
-        width = self.width - padding
-    }
-
     self.controls.previous = ISButton:new(padding, buttonY, self.width / 2 - (padding * 1.5), tools.BUTTON_HGT, " < ",
         self, function()
             if self.page > 1 then
@@ -160,7 +151,8 @@ function UI:createChildren()
         })
     end
 
-    local textPanel = ISRichTextPanel:new(colB.left, y, colB.width, self.controls.next.y - y - 20)
+    local textPanel = ISRichTextPanel:new(self.controls.next.x, y, self.controls.next.width,
+        self.controls.next.y - y - 20)
     textPanel:setAnchorRight(true)
     textPanel:setAnchorBottom(true)
     textPanel:setAnchorLeft(true)
